@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @RJRauch. 
-- 👀 I'm currently studying at Oregon State University to obtain my Bachelor's in Computer Science with a focus on Software Engineering/Development. I graduate in 2023.
-- 🌱 I’m currently learning PostgreSQL, C++, Python, Algorithms, Data Structures, theMERN stack, and Xcode for iOS mobile Development.
-- 💞️ I’m looking to collaborate on open source climate projects or healthcare software as I have a unique persepctive as an end user of many healthcare electronic medical records as former healthcare provider. 
+- 👀 I'm currently studying at Oregon State University to obtain my Bachelor's in Computer Science with a focus on Software Engineering/Development. I graduate in 2024.
+- 🌱 I’m currently learning PostgreSQL, C++, Python, Algorithms, Data Structures, and the MERN stack.
+- 💞️ I’m looking to collaborate on  healthcare software as I have a unique persepctive as an end user of many healthcare electronic medical records as former healthcare provider. I also have an interest in FinTech. 
 - Please be patient as I migrate over my local repository to populate my Github with my former and current projects. 
 - 📫 You can reach me at rauchry@oregonstate.edu
 
