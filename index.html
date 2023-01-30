@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ryan Rauch</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <h1> Ryan Rauch</h1>
+    </header>
+    <nav>
+        <a href="index.html" >Home</a>
+        <a href="contact.html">Contact</a>
+     </nav>
+    <main>
+        <section>
+            <h2>Web Development Concepts</h2>
+            <article>
+                <h3> About Web Servers </h3>
+                <p> 
+        I  created this page by creating a folder on my hard drive. Then I created a file entitled "index.html". I then opened this in the IDE  Visual Studio Code. 
+        I imported boilerplate HTML code. Then I followed the instructions on Canvas and typed the content of these paragraphs into this file. 
+        I created an account on the Oregon State ENGR server to enable my ENGR resources. I also created an SSH key and copied that to my ENGR account. 
+        I then used Filezilla to upload the file I created in Visual Studio Code on my local drive to the ENGR server in the "public_html" folder. 
+        "Index.html" usually refers to a home page on a website. A home page on a website is the default page of a website that users usually encounter first when visiting a website. 
+                </p>
+
+                <p>
+        Looking at my index.html page with the web developer tools, I see an HTTP request status of  200 status "OK" on the "index.html" page.
+        I can see it successfully retrieved this file from my machine with a listed URL of "file:///Users/dog1/Documents/CS%20290%20Winter%202023/M1/a1-rauchry/index.html". 
+        I see "main.css"  and "main.js" requests have failed, because I do not have any CSS or JS files for this project on my local computer.
+                </p>
+                <p>
+         In the request header, I can see now that the page was obtained from the URL "https://web.engr.oregonstate.edu/~rauchry/a1-rauchry/".
+         This means that my computer obtained it from communicating with the engineering server instead of my local computer. 
+         This was done using an HTTP "GET" request, which was successful, as indicated by a response code of "200" which is "OK."
+         I can see the IP address of the server and port which is 128.193.40.12:443, meaning an IP address of all the numbers before the colon, and a port of 443.
+         I can see the server is running on Apache server software and the data was sent as HTML. This is different from when the browser obtained the file locally from my machine, as in the above paragraphs. 
+         The "favicon.ico" file was successfully retrieved because it requested this data from the server, where it already was loaded and existed. 
+         We received 404 responses for "main.css" and "main.js" because we requested them from the webpages on our server. As we did not load any files to this effect, there was nothing to return, so we got 404 responses. 
+                </p>
+                <p>
+        My URL is "https://web.engr.oregonstate.edu/~rauchry/a1-rauchry/".
+        The schema is "https", the subdomain is "web.engr", the hostdomain is "oregonstate", the TLD is "edu."
+        The resource path is "~rauchry/a1-rauchry"
+                </p>
+            </article>
+            <article>
+                <h3>Frontend Design</h3>
+                <p>
+                Frontend web design is an area of web development and  software engineering/development(which is a field in computer science) focused on designing the interfaces of (in the case of this class) websites and web technologies; but, more generally, frontend design can involve  almost any technology in which there is a human user.
+                This involves the design of the GUI, any interactive experiences, and the visual design of the page. It focuses on the usability of the technology from the user's perspective. 
+                Frontend web design is heavily focused on the concept of usability. Broadly speaking, usabile interfaces should be effective, efficient, easy to navigate, error free, and engaging. 
+                These topics are defined below. 
+                </p>
+                <dl>
+                    <dt>Effective</dt>
+                    <dd> An effective design helps a user to  achieve a desired action or accomplish a goal. Even if a design is able to accomplish the task set out by the developer, if the design does not meet the goal of the user, it can still be argued that the design is not effective. </dd>
+                    <dt>Efficient</dt>
+                    <dd> An efficient design minimizes the work a user has to do to achieve the desired results. It minimizes cognitive load and manual effort (keystrokes, clicks, etc.) </dd>
+                    <dt>Easy to Navigate</dt>
+                    <dd> Good navigational design involves a layout which is intuitively understood and implemented by the user. If the design is frustrating and confusing the user may quit interacting with the website.  </dd>
+                    <dt>Error Free</dt>
+                    <dd>A design that is error free should involve a layout which is accessible across browsers and devices and screen readers so that it will be displayed without errors
+                        A good error free design should also anticipate how users would interact with it, and generate common errors, and handle those appropriately.  
+                    </dd>
+                    <dt>Engaging </dt>
+                    <dd>An engaging layout and experience is one that captivates the user and consumes their  attention. It is pleasant and fun and easy to use. It anticipates user needs and minimizes any roadblocks they may experience, or handles them appropriately. 
+                        From a psychological perspective this can be best be summarized by a design that places a user in the psychological state of flow. 
+                    </dd>
+                </dl>
+                <p>
+                Page layout tags help determine how content is arranged and spaced on a page to help machines and screen readers understand where content is distributed on a page.
+                Perviously developers often used "div" tags to arrange content, but this often did not easily allow for content to be differentiated by its purpose and layout. 
+                </p>
+                <p>
+                Anchor tags really bring the concept of the web to life. What anchor tags do is allow for different pages (or websites) to be linked to each other, so that when a user clicks on the link in the browser it will take the user to the linked webpage specified in the anchor tag.
+                Anchor tags link to content by using the "href=" attribute, which specifies the URL of the desired content.
+                An anchor tag can also link to a position within a document by referencing a hastag with the  name of the ID of an element in the document at the end of a URL.  
+                This will effectively take the user to that portion of the document specified by the ID. 
+                </p> 
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy; 2023 Ryan Rauch 
+        </p>
+       
+    </footer>
+</body>
+</html>
